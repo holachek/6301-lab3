@@ -1,5 +1,7 @@
 # 6301-lab3
-Temperature sensor board with PTAT, dual-slope ADC, and Arduino.
+Temperature sensor carrier board with PTAT cell, dual-slope ADC, and Arduino Nano.
+
+The PTAT cell features breakaway design of the temperature sense area, for remote sensing.
 
 Circuit and layout drawn in Altium 17.0.
 
