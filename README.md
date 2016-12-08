@@ -5,6 +5,8 @@ Circuit and layout drawn in Altium 17.0.
 
 [BOM for this project as Digikey Cart Share](http://www.digikey.com/short/35444m)
 
+-------
+
 ### Revision 1 Errata
 Updated Dec 8, 2016
 
@@ -15,6 +17,8 @@ Updated Dec 8, 2016
 #### Minor
 3. Pad size for C5 is too small for most 1uF film capacitors. Suggest to change to 1210 footprint.
 4. Jumpers have 0402 footprint, which have pads that do not short well with manual solder rework. Suggest to change to 0805 or 1206 footprint. Alternatively populate with 0402 0 ohm resistors.
+
+-------
 
 ### 3D Render
 
