@@ -8,11 +8,12 @@ Circuit and layout drawn in Altium 17.0.
 -------
 
 ### Revision 1 Errata
-Updated Dec 8, 2016
+Updated Dec 12, 2016
 
 #### Critical/Major
 1. R8 should pull up to VCC3V3 for stability, not VCC5V which is not well regulated and prone to noise.
 2. U1 pins 2, 4, and 6 (base) should be shorted together. The current design only connects pins 4 and 6, which results in half the expected PTAT current.
+3. A 100 ohm resistor should be put across J20 for stability of VREF.
 
 #### Minor
 3. Pad size for C5 is too small for most 1uF film capacitors. Suggest to change to 1210 footprint.
