@@ -8,7 +8,7 @@ Circuit and layout drawn in Altium 17.0.
 -------
 
 ### Revision 1 Errata
-Updated Dec 12, 2016
+Updated Dec 13, 2016
 
 #### Critical/Major
 1. R8 should pull up to VCC3V3 for stability, not VCC5V which is not well regulated and prone to noise.
@@ -16,8 +16,9 @@ Updated Dec 12, 2016
 3. A 100 ohm resistor should be put across J20 for stability of VREF.
 
 #### Minor
-3. Pad size for C5 is too small for most 1uF film capacitors. Suggest to change to 1210 footprint.
-4. Jumpers have 0402 footprint, which have pads that do not short well with manual solder rework. Suggest to change to 0805 or 1206 footprint. Alternatively populate with 0402 0 ohm resistors.
+4. Pad size for C5 is too small for most 1uF film capacitors. Suggest to change to 1210 footprint.
+5. Jumpers have 0402 footprint, which have pads that do not short well with manual solder rework. Suggest to change to 0805 or 1206 footprint. Alternatively populate with 0402 0 ohm resistors.
+6. Add a 4k7 ohm pull up resistor on Arduino pin 12 for one-wire parasitic power.
 
 -------
 
