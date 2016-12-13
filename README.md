@@ -18,7 +18,7 @@ Updated Dec 13, 2016
 #### Minor
 4. Pad size for C5 is too small for most 1uF film capacitors. Suggest to change to 1210 footprint.
 5. Jumpers have 0402 footprint, which have pads that do not short well with manual solder rework. Suggest to change to 0805 or 1206 footprint. Alternatively populate with 0402 0 ohm resistors.
-6. Add a 4k7 ohm pull up resistor on Arduino pin 12 for one-wire parasitic power.
+6. Add a 4k7 ohm pull up resistor to VCC5V on Arduino pin 12 for one-wire parasitic power.
 
 -------
 
