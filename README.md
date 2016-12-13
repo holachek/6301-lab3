@@ -1,6 +1,6 @@
 # 6301-lab3
-Temperature sensor carrier board with PTAT cell, dual-slope ADC, and Arduino Nano.
-The PTAT cell features breakaway design of the temperature sense area for remote measurement.
+Temperature sensor carrier board with PTAT cell, dual-slope ADC, and Arduino Nano. The PTAT cell features breakaway design of the temperature sense area for remote measurement. Final error after calibration was less than 5%.
+
 Circuit and layout drawn in Altium 17.0.
 
 [BOM for this project as Digikey Cart Share](http://www.digikey.com/short/35444m)
@@ -25,3 +25,9 @@ Updated Dec 13, 2016
 ### 3D Render
 
 ![PCB render](Outputs/6301 Lab3 PCB Render.png)
+
+### Conversion Results
+
+Linearity is very good. There is a constant offset error, which can be removed through calibration.
+
+![Conversion results. Ramp Time Ratio vs. Temperature.](6301 Lab3 Final Results.png)
