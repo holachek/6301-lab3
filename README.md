@@ -26,8 +26,18 @@ Updated Dec 13, 2016
 
 ![PCB render](Outputs/6301 Lab3 PCB Render.png)
 
+-------
+
 ### Conversion Results
 
 Linearity is very good. There is a constant offset error, which can be removed through calibration.
 
 ![Conversion results. Ramp Time Ratio vs. Temperature.](Outputs/6301 Lab3 Final Results.png)
+
+-------
+
+### Python Plotter Script
+
+The included Python script `plotter.py` allows for a realtime graph of temperature values. It also logs all values to a txt file.
+
+![Screenshot of a graph produced by plotter.py](Python/plotter_examplegraph.png)
