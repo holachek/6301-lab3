@@ -32,7 +32,7 @@ Updated Dec 13, 2016
 
 Linearity is very good. There is a constant offset error, which can be removed through calibration.
 
-![Conversion results. Ramp Time Ratio vs. Temperature.](6301%20Lab3%20Final%20Results.png)
+![Conversion results. Ramp Time Ratio vs. Temperature.](Outputs/6301%20Lab3%20Final%20Results.png)
 
 -------
 
